@@ -12,52 +12,44 @@
     "TG_BOT_TOKEN": {
       "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
       "value": ""
-      "required": true
     },
     "OWNER": {
       "description": "Masukan Username Telegram untuk Owner BOT [Jangan Pakai @]",
       "value": "mrismanaziz"
-      "required": true
     },
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
       "value": ""
       "required": true
     },
-    "APP_ID":{
+    "APP_ID": {
       "description": "Dapatkan APP ID di web my.telegram.org",
       "value": ""
-      "required": true
     },
-    "API_HASH":{
+    "API_HASH": {
       "description": "Dapatkan API HASH di web my.telegram.org",
       "value": ""
-      "required": true
     },
-    "CHANNEL_ID":{
+    "CHANNEL_ID": {
       "description": "Buat Channel DB/Tumbal Lalu masukkan bot dan jadikan Admin, Masukkan ID CH disini",
       "value": "-100"
-      "required": true
     },
-    "FORCE_SUB_CHANNEL":{
+    "FORCE_SUB_CHANNEL": {
       "description": "Masukkan ID Channel / Group, Lalu masukkan bot dan jadikan Admin.",
       "value": "-100"
       "required": true
     },
-    "FORCE_SUB_CHANNEL2":{
+    "FORCE_SUB_CHANNEL2": {
       "description": "Masukkan ID Channel / Group, Lalu masukkan bot dan jadikan Admin.",
       "value": "-100"
-      "required": true
     },
-    "FORCE_SUB_CHANNEL3":{
+    "FORCE_SUB_CHANNEL3": {
       "description": "Masukkan ID Channel / Group, Lalu masukkan bot dan jadikan Admin.",
       "value": "-100"
-      "required": true
     },
-    "FORCE_SUB_CHANNEL4":{
+    "FORCE_SUB_CHANNEL4": {
       "description": "Masukkan ID Channel / Group, Lalu masukkan bot dan jadikan Admin.",
       "value": "-100"
-      "required": true
     },
     "START_MESSAGE": {
       "description": "Pesan Start dari Link, Gunakan HTML format Cok",
