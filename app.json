@@ -20,7 +20,6 @@
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
       "value": ""
-      "required": true
     },
     "APP_ID": {
       "description": "Dapatkan APP ID di web my.telegram.org",
@@ -37,7 +36,6 @@
     "FORCE_SUB_CHANNEL": {
       "description": "Masukkan ID Channel / Group, Lalu masukkan bot dan jadikan Admin.",
       "value": "-100"
-      "required": true
     },
     "FORCE_SUB_CHANNEL2": {
       "description": "Masukkan ID Channel / Group, Lalu masukkan bot dan jadikan Admin.",
