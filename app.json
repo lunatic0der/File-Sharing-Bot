@@ -11,6 +11,7 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
+      "value": ""
       "required": true
     },
     "OWNER": {
@@ -20,14 +21,17 @@
     },
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
+      "value": ""
       "required": true
     },
     "APP_ID":{
       "description": "Dapatkan APP ID di web my.telegram.org",
+      "value": ""
       "required": true
     },
     "API_HASH":{
       "description": "Dapatkan API HASH di web my.telegram.org",
+      "value": ""
       "required": true
     },
     "CHANNEL_ID":{
