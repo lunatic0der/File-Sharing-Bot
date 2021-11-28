@@ -1,4 +1,5 @@
 # (©)Codexbotz
+# Recode by @mrismanaziz
 
 import sys
 
@@ -61,7 +62,7 @@ class Bot(Client):
                     "Bot tidak dapat Mengambil link Undangan dari Force Sub Channel!"
                 )
                 self.LOGGER(__name__).warning(
-                    f"Silakan periksa kembali var FORCE_SUB_CHANNEL_2 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
+                    f"Silakan periksa kembali var FORCE_SUB_CHANNEL2 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
                 )
                 self.LOGGER(__name__).info(
                     "Bot Berhenti. Tanyakan Ke https://t.me/mrismanaziz untuk Bantuan"
@@ -77,7 +78,7 @@ class Bot(Client):
                     "Bot tidak dapat Mengambil link Undangan dari Force Sub Channel!"
                 )
                 self.LOGGER(__name__).warning(
-                    f"Silakan periksa kembali var FORCE_SUB_CHANNEL_3 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
+                    f"Silakan periksa kembali var FORCE_SUB_CHANNEL3 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
                 )
                 self.LOGGER(__name__).info(
                     "Bot Berhenti. Tanyakan Ke https://t.me/mrismanaziz untuk Bantuan"
@@ -93,7 +94,7 @@ class Bot(Client):
                     "Bot tidak dapat Mengambil link Undangan dari Force Sub Channel!"
                 )
                 self.LOGGER(__name__).warning(
-                    f"Silakan periksa kembali var FORCE_SUB_CHANNEL_4 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
+                    f"Silakan periksa kembali var FORCE_SUB_CHANNEL4 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
                 )
                 self.LOGGER(__name__).info(
                     "Bot Berhenti. Tanyakan Ke https://t.me/mrismanaziz untuk Bantuan"
