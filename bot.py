@@ -1,6 +1,7 @@
 # (©)Codexbotz
 # Recode by @mrismanaziz
 
+import pyromod.listen
 import sys
 
 from pyrogram import Client
