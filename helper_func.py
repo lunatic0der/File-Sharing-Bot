@@ -13,7 +13,6 @@ from config import (
     FORCE_SUB_CHANNEL,
     FORCE_SUB_CHANNEL2,
     FORCE_SUB_CHANNEL3,
-    FORCE_SUB_CHANNEL4,
 )
 
 
@@ -23,8 +22,6 @@ async def is_subscribed(filter, client, update):
     if not FORCE_SUB_CHANNEL2:
         return True
     if not FORCE_SUB_CHANNEL3:
-        return True
-    if not FORCE_SUB_CHANNEL4:
         return True
     user_id = update.from_user.id
     if user_id in ADMINS:
@@ -38,9 +35,6 @@ async def is_subscribed(filter, client, update):
         )
         member = await client.get_chat_member(
             chat_id=FORCE_SUB_CHANNEL3, user_id=user_id
-        )
-        member = await client.get_chat_member(
-            chat_id=FORCE_SUB_CHANNEL4, user_id=user_id
         )
     except UserNotParticipant:
         return False
