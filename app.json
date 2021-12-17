@@ -33,6 +33,18 @@
       "description": "Buat Channel DB/Tumbal Lalu masukkan bot dan jadikan Admin, Masukkan ID CH disini",
       "value": "-100"
     },
+    "CHANNEL1": {
+      "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
+      "value": ""
+    },
+    "CHANNEL2": {
+      "description": "Masukan Username Channel ke 2 anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
+      "value": ""
+    },
+    "GROUP1": {
+      "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
+      "value": ""
+    },
     "FORCE_SUB_CHANNEL": {
       "description": "Masukkan ID Channel / Group, Lalu masukkan bot dan jadikan Admin.",
       "value": "-100"
