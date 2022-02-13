@@ -23,7 +23,7 @@
     },
     "ADMINS": {
       "description": "Masukan User ID Admin Channel Untuk Membantu Owner Membuat Link, Hanya Bisa Membuat Link",
-      "required": false
+      "value": ""
     },
     "APP_ID": {
       "description": "Dapatkan APP ID di web my.telegram.org",
