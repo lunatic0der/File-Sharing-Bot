@@ -34,19 +34,19 @@
       "value": "-100"
     },
     "FORCE_SUB_CHANNEL": {
-      "description": "Masukkan ID Channel / Group, Lalu masukkan bot dan jadikan Admin.",
+      "description": "Masukkan ID Channel Ke 1 anda, Lalu masukkan bot dan jadikan Admin.",
       "value": "-100"
     },
     "FORCE_SUB_CHANNEL2": {
-      "description": "Masukkan ID Channel / Group, Lalu masukkan bot dan jadikan Admin.",
+      "description": "Masukkan ID Channel Ke 2 anda, Lalu masukkan bot dan jadikan Admin.",
       "value": "-100"
     },
     "FORCE_SUB_CHANNEL3": {
-      "description": "Masukkan ID Channel / Group, Lalu masukkan bot dan jadikan Admin.",
+      "description": "Masukkan ID Channel Ke 3 anda, Lalu masukkan bot dan jadikan Admin.",
       "value": "-100"
     },
     "FORCE_SUB_CHANNEL4": {
-      "description": "Masukkan ID Channel / Group, Lalu masukkan bot dan jadikan Admin.",
+      "description": "Masukkan ID Channel Ke 4 anda, Lalu masukkan bot dan jadikan Admin.",
       "value": "-100"
     },
     "START_MESSAGE": {
@@ -56,6 +56,26 @@
     "FORCE_SUB_MESSAGE": {
       "description": "Pesan Force Subs dari bot link, gunakan format HTML",
       "value": "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya untuk menggunakan saya\n\nSilakan Join Ke Channel Terlebih Dahulu</b>"
+    },
+    "CHANNEL1":{
+      "description": "Masukan Username Channel anda Yang ke 1 [ Jangan Pake @ ]",
+      "value": "Lunatic0de",
+      "required": false
+    },
+    "CHANNEL2":{
+      "description": "Masukan Username Channel anda Yang ke 2 [ Jangan Pake @ ]",
+      "value": "Lunatic0de",
+      "required": false
+    },
+    "CHANNEL3":{
+      "description": "Masukan Username Channel anda Yang ke 3 [ Jangan Pake @ ]",
+      "value": "Lunatic0de",
+      "required": false
+    },
+    "CHANNEL4":{
+      "description": "Masukan Username Channel anda Yang ke 4 [ Jangan Pake @ ]",
+      "value": "Lunatic0de",
+      "required": false
     },
     "ADMINS": {
       "description": "Masukan User ID Admin Channel Untuk Membantu Owner Membuat Link, Hanya Bisa Membuat Link",
