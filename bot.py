@@ -44,7 +44,7 @@ class Bot(Client):
             except Exception as a:
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning(
-                    "Bot tidak dapat Mengambil link Undangan dari Force Sub Channel!"
+                    "Bot tidak dapat Mengambil link Invite dari Force Sub Channel!"
                 )
                 self.LOGGER(__name__).warning(
                     f"Silakan periksa kembali var FORCE_SUB_CHANNEL dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
@@ -60,7 +60,7 @@ class Bot(Client):
             except Exception as a:
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning(
-                    "Bot tidak dapat Mengambil link Undangan dari Force Sub Channel!"
+                    "Bot tidak dapat Mengambil link Invite dari Force Sub Channel!"
                 )
                 self.LOGGER(__name__).warning(
                     f"Silakan periksa kembali var FORCE_SUB_CHANNEL2 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
@@ -76,7 +76,7 @@ class Bot(Client):
             except Exception as a:
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning(
-                    "Bot tidak dapat Mengambil link Undangan dari Force Sub Channel!"
+                    "Bot tidak dapat Mengambil link Invite dari Force Sub Channel!"
                 )
                 self.LOGGER(__name__).warning(
                     f"Silakan periksa kembali var FORCE_SUB_CHANNEL3 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
@@ -92,7 +92,7 @@ class Bot(Client):
             except Exception as a:
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning(
-                    "Bot tidak dapat Mengambil link Undangan dari Force Sub Channel!"
+                    "Bot tidak dapat Mengambil link Invite dari Force Sub Channel!"
                 )
                 self.LOGGER(__name__).warning(
                     f"Silakan periksa kembali var FORCE_SUB_CHANNEL4 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
