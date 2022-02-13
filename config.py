@@ -23,8 +23,8 @@ OWNER = os.environ.get("OWNER", "mrismanaziz")
 # CHANNEL & GROUP
 CHANNEL1 = os.environ.get("CHANNEL1", "Lunatic0de")
 CHANNEL2 = os.environ.get("CHANNEL2", "Lunatic0de")
-GROUP1 = os.environ.get("GROUP1", "SharingUserbot")
-GROUP2 = os.environ.get("GROUP2", "SharingUserbot")
+CHANNEL3 = os.environ.get("CHANNEL3", "SharingUserbot")
+CHANNEL4 = os.environ.get("CHANNEL4", "SharingUserbot")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "")
