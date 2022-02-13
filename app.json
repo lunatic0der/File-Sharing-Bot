@@ -21,6 +21,10 @@
       "description": "Masukan User ID Telegram untuk Owner BOT",
       "value": ""
     },
+    "ADMINS": {
+      "description": "Masukan User ID Admin Channel Untuk Membantu Owner Membuat Link, Hanya Bisa Membuat Link",
+      "required": false
+    },
     "APP_ID": {
       "description": "Dapatkan APP ID di web my.telegram.org",
       "value": ""
@@ -75,10 +79,6 @@
     "CHANNEL4":{
       "description": "Masukan Username Channel anda Yang ke 4 [ Jangan Pake @ ]",
       "value": "Lunatic0de",
-      "required": false
-    },
-    "ADMINS": {
-      "description": "Masukan User ID Admin Channel Untuk Membantu Owner Membuat Link, Hanya Bisa Membuat Link",
       "required": false
     }
   },
